@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Asimovian&display=swap");
+
+body {
+    font-family: Asimovian, serif;
+    background: linear-gradient(78deg, #ffffff 0%, #000 0%, #0000b7 52%, #000094 85%);
+}
+
+.tsw {
+    color: rgb(118, 1, 228);
+}
+
+.mms {
+    width: 50px;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+.bsw {
+    color: white;
+    padding-top: 20px;
+    font-style:normal;
+}
+
+footer,
+.btn-primary {
+    background: linear-gradient(360deg, #ffffff 0%, #000 0%, #0000b7 52%, #000094 85%);
+}
+
+.mds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    background-color: rgb(111, 223, 0);
+    color: rgb(118, 1, 228);
+}
+
+.navbar-nav .nav-link active {
+    color: rgb(10, 10, 10);
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+
+.card-img-top {
+    max-width: 500px;
+}
+
+.card-body {
+    width: 500px;
+    padding: 20px;
+}
+
+.sidebar {
+    background: linear-gradient(270deg, #ffffff 0%, #06001d 0%, #2300bd, #2000b1);
+    color: rgb(118, 1, 228);
+}
+
+.card {
+    background: linear-gradient(270deg, #ffffff 0%, #06001d 0%, #2300bd, #2000b1);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(118, 1, 228);    
+}
+
+.carousel-inner {
+    width: 1257px;
+}
+
+.btw {
+    color: rgb(111, 223, 0);
+    padding-left: 5px;
+    margin: auto auto;
+}
+
+
+
+@media (max-width: 750px) {
+    .carousel-indicators {
+        display: none
+    }
+};
+
